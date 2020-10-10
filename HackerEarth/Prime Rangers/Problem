@@ -1,0 +1,48 @@
+Prime Rangers:
+You are given a range [L,R]. You are required to determine the prime rangers in this range.
+The definition of prime rangers is that the frequency of the smallest prime digit must be grater than
+or equal to the frequency of the second-smallest prime digit in a number, the frequency of the
+second-smallest prime digit is greater than or equal to the frequency of the third smallest prime digit in
+a number, and so on.
+
+Note:
+The number of prime rangers may become very large. Therefore, print the prime rangers
+modulo 10^9 + 7.
+
+
+Input format:
+
+The first line contains an integer T denoting the number of test cases
+
+Next T lines contain two space-separated integers L and R denoting the range in which you have
+to find the prime rangers.
+
+
+Output Format:
+
+Print the number of prime rangers modulo 10^9 + 7
+
+Constraints:
+1 <= T <= 5
+1 <= L <=R <= 10^18
+
+Sample input:
+2
+1 10
+31 32
+
+Sample output:
+7
+1
+
+
+Explanation:
+
+Test Case 1:
+The number 3, 5 and 7 are not prime rangers because in these number the frequency of 2 is 0 but the
+frequency of the prime number greater than 2 is 1
+
+Test Case 2:
+The number 32 is a prime ranger as the frequency of 2 is 1 and 3 is also 1 which satisfies the condition
+that the frequency of the smallest prime digit is less than or equal to the frequency of second smallest prime
+digit.
