@@ -10,16 +10,23 @@ contain more than one digit.
 ## Examples:
 
 **Input:** 10
+
 **Output:** 25
+
 **Explanation:** 2\*5 = 10. Hence 25 is the smallest value for 10
 
 **Input:** 56
+
 **Output:** 78
+
 **Explanation:** 7\*8 = 56.
 
 **Input:** 150
+
 **Output:** 556
+
 **Explanation:** 5\*5\*6 = 150.
 
 **Input:** 13
+
 **Output:** Not Possible
