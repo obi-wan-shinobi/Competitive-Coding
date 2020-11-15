@@ -33,5 +33,5 @@ The second line contains n space-separated integers, where each integer i descri
 4
 3 2 1 3
 ```
-# Sample Output
+## Sample Output
 `2`
