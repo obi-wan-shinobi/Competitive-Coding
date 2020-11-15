@@ -37,9 +37,8 @@ A single string s that represents a time in 12-hour clock format (i.e.:hh:mm:ssA
 
 - All input times are valid
 
-- **_Sample Input 0_**
+### Sample Input
+`07:05:45PM`
 
-  - 07:05:45PM
-- **_Sample Output 0_**
-
-  - 19:05:45
+### Sample Output 0
+`19:05:45`
