@@ -1,0 +1,45 @@
+# Problem
+
+Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+
+Note:
+- 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
+- 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
+
+
+## Example
+
+- s = "12:01:00PM"
+  - Return '12:01:00'.
+
+- s = "12:01;00AM"
+  - Return '00:01:00'.
+
+## Function Description
+
+Complete the _timeConversion_ function in the editor below. It should return a new string representing the input time in 24 hour format.
+
+_timeConversion_ has the following parameter(s):
+
+- __string s__: a time in 12 hour format
+
+- string s: a time in  hour format
+
+**Returns**
+
+- __string__: the time in 24 hour format
+
+### Input Format
+
+A single string s that represents a time in 12-hour clock format (i.e.:hh:mm:ssAM  or hh:mm:ssPM).
+
+### Constraints
+
+- All input times are valid
+
+- **_Sample Input 0_**
+
+  - 07:05:45PM
+- **_Sample Output 0_**
+
+  - 19:05:45
